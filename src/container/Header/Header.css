@@ -1,0 +1,43 @@
+.app__header {
+    background-color: var(--color-black);
+    position: relative;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem; 
+    
+}
+
+.app__header-h1{
+    font-family:var(--font-base) ;
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height:117px;
+    font-size: 90px;
+
+}
+
+
+.app__wrapper-img {
+    position: relative;
+
+}
+
+.app__wrapper-img img {
+    width: 100%;
+   
+    
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .app__header {
+        grid-template-columns: 40% 60%;
+
+    }
+}
+
+
+
